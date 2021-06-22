@@ -1,4 +1,4 @@
-const mathOperations = require('./calculator');
+const mathOperations = require('../calculator');
 
 describe("Calculator tests", () => {   //The describe block is an outer description for the test suite
     test('adding 1 + 2 should return 3', () => { //test block – this represents a single test
